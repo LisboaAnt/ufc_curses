@@ -12,22 +12,37 @@ const guestRoutes = [
     },
     {
         icon: Compass,
-        label: "Browse",
+        label: "Pesquise",
         href: "/search",
+    },
+    {
+        icon: List,
+        label: "Modo Professor",
+        href: "/teacher/courses",
     },
 ]
 
 const teacherRoutes = [
     {
         icon: List,
-        label:"Courses",
+        label:"Cursos",
         href:"/teacher/courses",
     },
     {
         icon: BarChart,
         label:"Analytics",
         href:"/teacher/analytics",
-    }
+    },
+    {
+        icon: BarChart,
+        label:"Criar",
+        href:"/teacher/create",
+    },
+    {
+        icon: List,
+        label: "Modo Aluno",
+        href: "/",
+    },
 ]
 
 export const SidebarRoutes = () => {
